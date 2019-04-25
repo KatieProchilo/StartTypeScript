@@ -17,4 +17,3 @@ const melinda: Friend = {
 bill.friends = [melinda];
 
 console.log(bill);
-
