@@ -9,7 +9,21 @@
 
    ```npm i nodemon```
 
+## VS Code
+
 VS Code fully supports TS, so no worries here.
+
+But, here are some recommeded extensions:
+
+* Bracket Pair Colorizer
+   * This extension allows matching brackets to be identified with colours.
+   * The user can define which characters to match, and which colours to use.
+* indent-rainbow
+   * A simple extension to make indentation more readable.
+   * This extension colorizes the indentation in front of your text alternating four different colors on each step.
+* Bracket Pair Colorizer
+   * This extension allows matching brackets to be identified with colours.
+   * The user can define which characters to match, and which colours to use.
 
 # Setting up the TypeScript Environment
 
