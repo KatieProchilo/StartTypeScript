@@ -66,9 +66,9 @@ The out directory will automatically be generated when TypeScript files are tran
 ## File Structure
 
 Any number of file structures are okay as long as:
-* The ```rootDir``` is specified in tsconfig.json.
+* **The ```rootDir``` is specified in tsconfig.json.**
    * The relative path from tsconfig.json to the root directory.
-* The ```outtDir``` is specified in tsconfig.json.
+* **The ```outtDir``` is specified in tsconfig.json.**
    * The relative path from tsconfig.json to the out directory.
 
 Here is one common, clean, and simple file structure to begin a TyepScript project:

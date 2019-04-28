@@ -1,19 +1,38 @@
-import { Friend, Person} from './types';
+import { Group, Person} from './types';
 
-const foo: number = 5;
+const billAge: number = 63;
 
-console.log(foo);
-
-const bill: Person = {
+let bill: Person = {
   id: 5,
-  name: 'Bill'
-}
+  age: billAge,
+  firstName: `Bill`,
+  lastName: `Gates`,
+};
 
-const melinda: Friend = {
-  name: 'Melinda',
-  yearsOfFriendship: 9
-}
+let melinda: Person = {
+  id: `abd`,
+  age: 54,
+  firstName: `Melinda`,
+  lastName: `Gates`,
+};
 
-bill.friends = [melinda];
+let satya: Person = {
+  id: `dh53os`,
+  age: 51,
+  firstName: `Satya`,
+  lastName: `Nadella`,
+};
 
-console.log(bill);
+let microsoftBuddies: Group = {
+  name: `The Microsoft Buddies`,
+  areFriends: true,
+  people: [
+    bill,
+    melinda,
+    satya,
+  ]
+};
+
+console.log(`${microsoftBuddies.name}:\n`
+  + `${bill.firstName} ${bill.lastName}, ${melinda.firstName} `
+  + `${melinda.lastName}, and ${satya.firstName} ${satya.lastName}`);
