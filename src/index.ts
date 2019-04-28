@@ -1,6 +1,6 @@
 import { Friend, Person} from './types';
 
-const foo: number = 6;
+const foo: number = 5;
 
 console.log(foo);
 
