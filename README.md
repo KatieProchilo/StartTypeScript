@@ -32,7 +32,7 @@
 
       ```npm run watch```
 
-   * Or, the build and start scripts will execute only the latest compiled JavaScript:
+   * Or, the start script will execute only the latest compiled JavaScript:
 
       ```npm start```
 
@@ -51,7 +51,7 @@ Here are some recommeded extensions:
 
 **NOTE:** If you know the basics of TypeScript you can probably skip the remaining reading. Write all your TS files (and no others) in ```src/``` and you should be good to go. By the same measure, do not manually alter code in ```lib/```.
 
-# Setting Up the TypeScript Environment
+# Setting Up the TypeScript Project
 
 A lot will be identical to a Node.js project. Here are some notable differences when working in TypeScript:
 
