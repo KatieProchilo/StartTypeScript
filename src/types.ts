@@ -1,18 +1,15 @@
-export interface Group {
-  areMarried?: boolean;
-  areFriends?: boolean;
+export interface IGroup {
+  id: string | number;
   name: string;
-  people: People;
+  areMarried?: boolean;
+  people?: People;
 }
-
-export type Groups = Group[];
 
 export type People = Person[];
 
 export interface Person {
   id: string | number;
-  age?: number;
   firstName: string;
   lastName: string;
-  groups?: Groups;
+  age?: number;
 }
