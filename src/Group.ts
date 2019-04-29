@@ -19,7 +19,11 @@ export class Group implements IGroup {
   constructor(name: string, areMarried?: boolean, people?: People) {
     // Check for required parameters.
     if (name === undefined || name === "") {
-      throw new TypeError(`Names passed into groups must be strings with one or more character.`);
+      try {
+        throw new TypeError(`Names passed into groups must be strings with one or more character.`);
+      } catch(e) {
+        console.log(e);
+      }
     }
 
     // Initialize required fields, if any.
