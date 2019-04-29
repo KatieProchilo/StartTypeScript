@@ -23,7 +23,7 @@ export class Group implements IGroup {
     }
 
     // Initialize required fields, if any.
-    this.id = this.createId(4);
+    this.id = this.createId(40);
     this.name = name;
 
     // Initialize optional fields, if any.
@@ -36,6 +36,7 @@ export class Group implements IGroup {
    * production, but is will suffice for the example.
    */
   public createId = (length) => {
-    return Math.random().toString(36).substring(length);
+    // TODO: Eventually create a Groups class to ensure IDs are unique.
+    return (Math.random() + 1).toString(36).substring(2, length);
   }
 }
