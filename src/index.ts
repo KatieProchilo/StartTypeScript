@@ -1,16 +1,16 @@
-import { IGroup, Person } from './types';
+import { IGroup, IPerson } from './types';
 import { Group } from './Group';
 
 const billAge: number = 63;
 
-let bill: Person = {
+let bill: IPerson = {
   id: 5,
   age: billAge,
   firstName: `Bill`,
   lastName: `Gates`,
 };
 
-let melinda: Person = {
+let melinda: IPerson = {
   id: `abd`,
   age: 54,
   firstName: `Melinda`,
@@ -21,7 +21,7 @@ let theGates: IGroup = new Group("The Gates");
 theGates.areMarried = true;
 theGates.people = [bill, melinda];
 
-let satya: Person = {
+let satya: IPerson = {
   id: `dh53os`,
   age: 51,
   firstName: `Satya`,

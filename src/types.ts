@@ -7,7 +7,7 @@ export interface IGroup {
 
 export type People = Person[];
 
-export interface Person {
+export interface IPerson {
   id: string | number;
   firstName: string;
   lastName: string;
