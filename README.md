@@ -14,7 +14,11 @@
 
    ```npm i -g typescript```
 
-3. Clone the repo.
+3. Globally install Nodemon:
+
+   ```npm i -g nodemon```
+
+4. Clone the repo.
    * with HTTPS:
 
       ```git clone https://github.com/KatieProchilo/StartTypeScript.git```
@@ -23,12 +27,12 @@
 
       ```git clone git@github.com:KatieProchilo/StartTypeScript.git```
 
-4. ```cd``` into the project's repository and install npm packages:
+5. ```cd``` into the project's repository and install npm packages:
 
    ```npm i```
 
-5. Run the Project.
-   * The watch script will execute  any time changes are saved:
+6. Build and run the Project.
+   * The watch script will execute any time changes are saved:
 
       ```npm run watch```
 
