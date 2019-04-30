@@ -27,14 +27,10 @@
 
    ```npm i```
 
-5. Run the Project.
-   * The watch script will execute  any time changes are saved:
+5. Run the Project. The watch script will execute  any time changes are saved. To run a watch in TypeScript, **open 2 terminal windows**.
 
-      ```npm run watch```
-
-   * Or, the start script will execute only the latest compiled JavaScript:
-
-      ```npm start```
+   1. In **window 1**, run: ```npm run watch```
+   1. In **window 2**, run: ```tsc -w```
 
 # Setting Up VS Code
 
