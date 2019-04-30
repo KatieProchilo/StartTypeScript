@@ -19,26 +19,15 @@
    ```npm i -g nodemon```
 
 4. Clone the repo.
-   * with HTTPS:
-
-      ```git clone https://github.com/KatieProchilo/StartTypeScript.git```
-
-   * or, with SSH:
-
-      ```git clone git@github.com:KatieProchilo/StartTypeScript.git```
 
 5. ```cd``` into the project's repository and install npm packages:
 
    ```npm i```
 
-6. Build and run the Project.
-   * The watch script will execute any time changes are saved:
+6. Build and run the Project. The watch script will execute  any time changes are saved. To run a watch in TypeScript, **open 2 terminal windows**.
 
-      ```npm run watch```
-
-   * Or, the start script will execute only the latest compiled JavaScript:
-
-      ```npm start```
+   1. In **window 1**, run: ```npm run watch```
+   1. In **window 2**, run: ```tsc -w```
 
 # Setting Up VS Code
 

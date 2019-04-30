@@ -5,9 +5,9 @@ export interface IGroup {
   people?: People;
 }
 
-export type People = Person[];
+export type People = IPerson[];
 
-export interface Person {
+export interface IPerson {
   id: string | number;
   firstName: string;
   lastName: string;
